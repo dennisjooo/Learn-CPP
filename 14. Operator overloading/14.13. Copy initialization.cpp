@@ -15,7 +15,7 @@ public:
         assert(denominator != 0);
     }
 
-        // Copy constructor
+	// Copy constructor
 	Fraction(const Fraction& copy) :
 		m_numerator(copy.m_numerator), m_denominator(copy.m_denominator)
 	{
